@@ -5,8 +5,8 @@ dark-2 text-gray
 dark-3 text-light-gray */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-.open-sans-font {
-    font-family: "Open Sans", serif;
+.work-sans-font {
+    font-family: "Work Sans", serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings:"wdth" 100;
@@ -24,7 +24,7 @@ dark-3 text-light-gray */
    color: #727272; 
 }
 
-.text-primary{
+.text-primary {
     color: #FF900E;
 }
 
@@ -36,12 +36,12 @@ dark-3 text-light-gray */
     background-color: #ffffff;
 }
 
-.section-title{
+.section-title {
     font-size: 2.8rem;
     font-weight: 800;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #FF900E;
     color: white;
     padding: 20px 25px;
@@ -51,42 +51,65 @@ dark-3 text-light-gray */
     border: none;
 }
 
-main{
+main {
     max-width: 1440px;
     margin: 0 auto;
 }
 
-main > section{
+main > section {
     margin-top: 120px;
 }
 
-.display-flex{
+.display-flex {
     display: flex;
 }
 
 /* Navbar Style Starts */
-.navbar{
+.navbar {
     justify-content: space-between;
     align-items: center;
+    padding: 0 50px;
 }
 
-.brand{
+.brand {
     font-weight: 700;
     font-size: 3rem;
 }
-.nav-item{
+.nav-item {
     list-style: none;
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
-.nav-link{
+.nav-link {
     text-decoration: none;
     font-weight: 500;
 }
 
-.navbar, .banner{
+.navbar, .banner {
     max-width: 1440px;
     margin: 0 auto;
+}
+
+/* Banner Styles Starts */
+.banner-content {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.banner-description {
+    font-size: 1rem;
+    margin: -20px 0 30px 0;
+}
+
+.banner-image {
+    width: 100%;
+    margin-top: 20px;
 }
 
 
