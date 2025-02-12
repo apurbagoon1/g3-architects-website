@@ -303,4 +303,30 @@ footer {
     }
 }
 
+/* responsive media query for tablet */
 
+@media screen and (min-width: 576px) and (max-width: 992px) 
+{
+    .teams-feature, .features{
+        flex-direction: column;
+    }
+    .our-features{
+        margin: 50px auto;
+    }
+
+    .sponsor-companies, .facts-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        justify-items: center;
+    }
+
+    .facts-container{
+
+        margin: 90px auto;
+    }
+
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}
